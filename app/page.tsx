@@ -1,6 +1,7 @@
-import { SiteHeader } from '@/components/site-header'
 import { Button } from '@/components/ui/button'
-import { Card, CardHeader, CardTitle, CardDescription, CardContent } from '@/components/ui/card'
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
+
+import { SiteHeader } from '@/components/site-header'
 
 export default function Home() {
   return (
@@ -10,9 +11,7 @@ export default function Home() {
         <Card className="w-full max-w-md">
           <CardHeader>
             <CardTitle>Welcome to TryPy</CardTitle>
-            <CardDescription>
-              This is a holding page. More content coming soon!
-            </CardDescription>
+            <CardDescription>This is a holding page. More content coming soon!</CardDescription>
           </CardHeader>
           <CardContent className="flex justify-center">
             <Button>Get Started</Button>
